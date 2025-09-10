@@ -42,3 +42,18 @@ print("Idade:", idade)
 print("Altura:", altura)
 
 print("Fim do programa")
+
+nome = "Vania"      # string (texto)
+idade = 51          # inteiro
+altura = 1.68       # float (decimal)
+estudando = True    # booleano (verdadeiro/falso)
+estadocivil = "casada" # type: ignore # string (texto)
+hobby = "aprender python" # string (texto)
+
+print(nome, idade, altura, estudando, estadocivil, hobby)
+print(type(nome))   # mostra o tipo da variável
+print(type(idade))
+print(type(altura))
+print(type(estudando))
+print(type(estadocivil))
+print(type(hobby))
